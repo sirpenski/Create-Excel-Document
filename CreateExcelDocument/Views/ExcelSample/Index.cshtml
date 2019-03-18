@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row justify-content-center align-self-center">
+
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="jumbotron" style="padding:2.0em">
+
+            <form action="/ExcelSample/CreateExcelFile" method="get">
+
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                        <img class="img-fluid" src="~/images/icon.png" />
+                    </div>
+
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                        <H3>Sample Excel File Demo</H3>
+                        This sample displays creates an Excel file that contains stylesheets, column definitions, fills, number formats, 
+                        borders, and fonts such that one can get an idea of how to make an excel spreadsheet in memory and return it 
+                        to the client browser.
+                    </div>
+
+                </div>
+
+                <div class="row" style="padding-top:2.0em">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-xs-8 text-right">
+
+                        <input type="submit" class="btn btn-success" value="Run Sample" />
+
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+</div>
+        
+
+
+
+
